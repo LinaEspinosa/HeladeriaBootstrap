@@ -1,0 +1,14 @@
+#carouselExampleFade .carousel-inner img{
+    max-height: 75vh;
+    object-fit: cover; 
+
+    
+}
+
+#carouselExampleFade{
+    position:relative;
+}
+
+img{
+    object-fit: cover;
+}
