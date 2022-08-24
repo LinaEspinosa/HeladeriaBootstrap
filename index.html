@@ -1,155 +1,374 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roll Ice Cream</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.css">
 
-  </head>
-  <body style="background-color:#E8F2D0 ; ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roll Ice Cream</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="/index.css">
 
-    <!-- header -->
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color:#D9B504;">
-            <div class="container-fluid ">
-                <img  class="rounded-circle" src="/assets/images/logo.jpg" alt="logo" width="70" height="70">
-              <a class="navbar-brand  m-2" href="#">
-                Roll Ice Cream</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse m-4 justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto ">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Catàlogo</a>
-                  </li>
-              </div>
-            </div>
-          </nav>
-    </header>
+</head>
 
-    <!-- carousel -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade m-2" data-bs-ride="carousel" data-bs-interval="5000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/assets/images/hel1.jpeg" class="d-block w-100 img-fluid" alt="...">
-            <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>We had such a great time in LA!</p>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/images/hel2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-                <h5>Los Angeles</h5>
-                <p>We had such a great time in LA!</p>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/images/hel4.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>We had such a great time in LA!</p>
-              </div>
-          </div>
+<body style="background-color:#E8F2D0 ; ">
+
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color:#7CA692">
+      <div class="container-fluid ">
+        <img class="rounded-circle" src="/assets/images/logo.jpg" alt="logo" width="70" height="70">
+        <a class="navbar-brand  m-2" href="#">
+          Roll Ice Cream</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-4 justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catàlogo</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#formulario" class="nav-link" >Contáctanos</a>
+            </li>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
       </div>
+    </nav>
+  </header>
 
-      <!-- card -->
-
-      <section >
-
-        <div class="container">
-            <h1 class="text-center">Nuestros Productos</h1>
-            
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2 ">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img class="img-fluid" src="/assets/images/hel1.webp" class="card-img-top" alt="Camisa 04205" />
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img class="img-fluid" src="/assets/images/hel2.jpg" class="card-img-top" alt="Camisa 04205" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img class="img-fluid" src="/assets/images/hel3.jpg" class="card-img-top" alt="Camisa04206" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img class="img-fluid" src="/assets/images/hel1.jpeg" class="card-img-top" alt="Camisa04206" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img src="/assets/images/hel6.jpg" class="card-img-top" alt="Camisa04206" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img src="/assets/images/hel7.jpg" class="card-img-top" alt="Camisa04206" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img src="/assets/images/hel8.jpg" class="card-img-top" alt="Camisa04206" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-2">
-                    <div class="card text-center border border-5" style="width: 18rem">
-                        <img src="/assets/images/hel3.jpg" class="card-img-top" alt="Camisa04206" />
-                    </div>
-                </div>
-            </div>
-      </section>
-
-      <!-- modal -->
-      <!-- Modal -->
-    <div class="modal fade" id="modalImage1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <img src="/assets/images/catalogo/img3.jpg" alt="">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">Blusa Prem</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Blusa con prense delantero manga 3/4, camiseta de estilo casual, corte suelto.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-
-                </div>
-            </div>
+  <!-- carousel -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/images/sorbet-dessert.webp" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/ice-cream-milkshake-treats.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Los Angeles</h5>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/wooden.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
     </div>
-    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- card -->
+  <section>
+    <div class="container">
+      <h1 class="text-center m-4">Nuestros Productos</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2 " style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage1">
+              <img src="/assets/images/dessert.jpg" class="card-img-top" alt="...">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage2">
+              <img src="/assets/images/banana-split.webp" class="card-img-top" alt="...">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage3">
+              <img src="/assets/images/ice-cream-milkshake-treats.jpg" class="card-img-top">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage4">
+              <img src="/assets/images/PEAR-and.webp" class="card-img-top" alt="...">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage5">
+              <img src="/assets/images/popsicles.jpg" class="card-img-top" alt="...">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage6">
+              <img src="assets/images/wooden.jpg" class="card-img-top" alt="...">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage7">
+              <img src="/assets/images/raspberry-coulis-spread-around-ice-cream.jpg" class="card-img-top" alt="...">
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-2 d-flex justify-content-center border-navbar2">
+          <div class="card text-center border border-2" style="width: 18rem;">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage8">
+              <img src="/assets/images/two-ice-cream-cones-upside-down-in-a-tall-glass.jpg" class="card-img-top"
+                alt="...">
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modalImage1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/dessert.jpg" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Helado Lorem, ipsum</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod1.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/banana-split.webp" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Banana Split</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod2.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/ice-cream-milkshake-treats.jpg" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Malteada</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod3.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/PEAR-and.webp" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Pera Lorem</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod4.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/popsicles.jpg" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Pallett</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod5.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="assets/images/wooden.jpg" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Fruit Ice Cream</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod6.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/raspberry-coulis-spread-around-ice-cream.jpg" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Lorem, ipsum</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod7.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalImage8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="/assets/images/two-ice-cream-cones-upside-down-in-a-tall-glass.jpg" alt="">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Lorem</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod8.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario modal -->
+    <div class="modal" id="formulario" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Para nosotros un gusto escucharte...</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombres</label>
+              <input class="form-control form-control-lg" type="text" class="form-control" id="exampleFormControlInput1">
+              <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
+              <input class="form-control form-control-lg" type="text" class="form-control" id="exampleFormControlInput1">
+              <label for="exampleFormControlInput1" class="form-label">Direcciòn</label>
+              <input class="form-control form-control-lg" type="text" class="form-control" id="exampleFormControlInput1">
+              <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+              <input class="form-control form-control-lg" type="text" class="form-control" id="exampleFormControlInput1">
+              <label for="exampleFormControlInput1" class="form-label">Dirreciòn</label>
+              <input class="form-control form-control-lg" type="text" class="form-control" id="exampleFormControlInput1">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input class="form-control form-control-lg" type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <!-- <form action="#">
+              <div>
+                <input type="text" name="nombre" placeholder="Nombres">
+
+              </div>
+              <div>
+                <input type="text" name="nombre" placeholder="Apellidos">
+                
+              </div>
+              <div>
+                <input type="email" name="nombre" placeholder="Direcciòn">
+
+              </div>
+              <div>
+                <input type="text" name="nombre" placeholder="Telefono">
+              </div>
+
+              <span>Genero</span>
+              <input type="radio" name="nombre" value="Femenino">
+              <label for="femenino">Femenino</label>
+              <input type="radio" name="nombre" value="Masculino">
+              <label for="masculino">Masculino</label>
 
 
+          
+            </form> -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="modal fade" id="formulario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <span class="modal-title" id="exampleModalLabel">Es un gusto para nosotros escucharte... </span>
+          
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <a href="/catalogo/prod7.html">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ver más</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+ -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+</body>
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
 </html>
